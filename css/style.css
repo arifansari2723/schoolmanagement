@@ -1,0 +1,469 @@
+/*.page
+{
+  width:100%;
+  height:100%;
+  margin-bottom: 70px;
+  background: linear-gradient( 
+                 rgb(147, 226, 226) , rgb(228, 209, 218));
+
+}*/
+
+.container1
+{
+ background-color: rgb(97, 107, 106);
+
+}
+.navbarbottom{
+  height: 45px;
+}
+.navimage{
+  width: 20px;
+  height: 30px;
+}
+.topmargin
+{
+  margin-top: 90;
+}
+.contact{
+  background-color: rgb(8, 10, 10);
+}
+.nav-text-color{
+  color: #fff;
+}
+}
+.textsize
+{
+ font-size: 20;
+
+}
+.textsize1
+{
+ 
+ font-size: 20;
+border: outset;
+}
+.newsevents2
+{
+  background-color: rgb(132, 216, 198);
+ border:groove;
+ border-radius: 5%;
+}
+.newsevents
+{
+
+text-align: justify;
+}
+.textalign
+
+{
+  text-align: center;
+  font-size: 10;
+}
+.btnstyle1
+{
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height:1.7;
+  border-radius: 0.3rem;
+  background-color:brown;
+}
+.btnstyle
+{
+  
+ background-color:rgb(245, 176, 228);
+ 
+}
+.menurow
+{
+ font-size: 28;
+ text-shadow: black;
+}
+
+.menu-bar li:hover
+{
+  background-color:rgb(174, 154, 228);
+
+}
+.submitbtn{
+  
+  margin: 20px auto;
+  text-align: center;
+ 
+  padding: 14px 40px;
+
+  border-radius: 24px;
+  transition: 0.25s;
+  
+}
+
+
+
+
+ /* Style all font awesome icons 
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want 
+.fa:hover {
+  opacity: 0.5;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook
+.fa-facebook {
+  background:  rgb(67, 27, 177);
+  color:white;
+  transform: rotate(360deg);
+  transition: all 0.2s
+}
+
+/* Twitter 
+.fa-twitter {
+  background:  rgb(95, 175, 228);
+  color:white;
+} 
+.fa-instagram {
+  background:  rgb(202, 79, 79);
+  color:white;
+ 
+} 
+.fa {
+  padding: 8px;
+  font-size: 20px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:100%;
+}*/
+
+
+
+
+.dropdown1 li {
+  float: left;
+}
+
+.dropdown li a, .dropbtn 
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+
+  text-decoration: none;
+}
+
+
+
+li.dropdown1 
+{
+  display: inline-block;
+}
+
+.dropdown1-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #729199;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(93, 69, 158);
+  z-index: 1;
+}
+
+.dropdown1-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown1-content a:hover
+ {
+   background-color: rgb(93, 69, 158);
+  }
+.dropdown1:hover .dropdown1-content 
+{
+  display: block;
+}
+/*login*/
+
+
+.box {
+  width: 420px;
+  padding: 40px;
+  border: 2px solid;
+  top: 50%;
+  left: 50%;
+  background: #ccc8c8;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.25s;
+  margin-top: 100px
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: rgb(12, 11, 11);
+  border-radius: 24px;
+  transition: 0.25s
+}
+
+.box h1 {
+  color: rgb(14, 13, 13);
+  text-transform: uppercase;
+  font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 300px;
+  border-color: #f7faf8
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(64, 76, 243);
+  background-color:rgb(64, 76, 243);
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+  background: #8715bb
+}
+
+.forgot {
+  text-decoration: underline;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0
+  
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #33ccff
+}
+
+.social-network a.icoGoogle:hover {
+  background-color: #BD3518
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+  color: #fff
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  transform: rotate(360deg);
+  transition: all 0.2s
+}
+
+.social-circle i {
+  color: #fff;
+  transition: all 0.8s;
+  transition: all 0.8s
+}
+
+
+
+
+
+
+
+*/home page icon*/
+
+ul.social-network1 {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0
+  
+}
+
+ul.social-network1 li {
+  display: inline;
+  margin: 0 5px
+}
+
+.social-network1 a.icoFacebook1:hover {
+  background-color: #3B5998
+}
+
+.social-network1 a.icoTwitter1:hover {
+  background-color: #33ccff
+}
+
+.social-network1 a.icoGoogle1:hover {
+  background-color: #BD3518
+}
+
+.social-network1 a.icoFacebook1:hover i,
+.social-network1 a.icoTwitter1:hover i,
+.social-network1 a.icoGoogle1:hover i {
+  color: rgb(3, 3, 3)
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD
+}
+
+.social-circle1 li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 100%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 20px
+}
+
+.social-circle1 li i {
+  margin: 0;
+  line-height: 32px;
+  text-align: center
+}
+
+.social-circle1 li a:hover i,
+.triggeredHover {
+  transform: rotate(360deg);
+  transition: all 0.2s
+}
+
+.social-circle1 i {
+  color: #fff;
+  transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+
+/*sign up*/
+
+.tcolor{
+
+
+}
+.box1 {
+  width: 420px;
+  padding: 40px;
+  border: 2px solid ;
+  top: 50%;
+  left: 50%;
+  background: #cccaca;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.25s;
+  margin-top: 70px;
+}
+
+.box1 input[type="text"],
+.box1 input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box1 h1 {
+  color: white;
+  border: 2px solid rgb(64, 76, 243);
+  text-transform: uppercase;
+  font-weight: 500;
+  background: linear-gradient(  rgb(147, 226, 226) , rgb(172, 12, 86));
+  border-radius: 10px;
+}
+
+.box1 input[type="text"]:focus,
+.box1 input[type="password"]:focus {
+  width: 300px;
+  border-color: #f4fafa
+}
+
+.box1 input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(64, 76, 243);
+  background-color:rgb(64, 76, 243);
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box1 input[type="submit"]:hover {
+  
+  background: #6b2ecc;
+}
